@@ -1,0 +1,25 @@
+{
+  "name": "lhh-utils",
+  "version": "1.0.0",
+  "description": "lhh-utils",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ApeWhoLovesCode/lhh-utils"
+  },
+  "files": [
+    "src"
+  ],
+  "author": "lhh",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.0.2"
+  }
+}

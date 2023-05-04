@@ -1,15 +1,22 @@
 ## lhh-utils
 
-## Getting Started
+## utils
 
-安装依赖(Install dependencies),
+### worker-libgif
 
-```bash
-npm i
+将gif图片转为可供canvas绘画的数组（支持worker）
+
+- 使用
+
+```js
+/** 
+ * 将gif图片转为可供canvas绘画的数组
+ * @param url: 图片地址
+ * @param isWorker: 是否是worker环境下 默认为false
+ */
+loadGifToCanvas(url, isWorker).then((list) => {
+  console.log(list)
+})
 ```
 
-运行项目(Start the dev server)
 
-```bash
-npm run start
-```
