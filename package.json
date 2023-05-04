@@ -1,8 +1,11 @@
 {
   "name": "lhh-utils",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "lhh-utils",
   "main": "src/index.ts",
+  "files": [
+    "src"
+  ],
   "devDependencies": {
     "acorn": "^8.8.2",
     "acorn-import-assertions": "^1.8.0",
