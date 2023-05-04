@@ -3,7 +3,7 @@
  * @param url: 图片地址
  * @param isWorker: 是否是worker环境下 默认为false
  */
-export default function loadGifToCanvas(url, isWorker = false) {
+export function loadGifToCanvas(url, isWorker = false) {
   // console.log(self instanceof WorkerGlobalScope);
   var FRAME_LIST = []; // 存放每一帧数据以及对应的延时
   var TEMP_CANVAS;
@@ -485,3 +485,5 @@ export default function loadGifToCanvas(url, isWorker = false) {
     h.send();
   })
 }
+
+export default loadGifToCanvas

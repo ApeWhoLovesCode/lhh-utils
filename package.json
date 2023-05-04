@@ -1,6 +1,6 @@
 {
   "name": "lhh-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "lhh-utils",
   "main": "src/index.ts",
   "devDependencies": {
